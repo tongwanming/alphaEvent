@@ -17,6 +17,7 @@
 		123BC8FF29CAEC6900080580 /* AlphaEventDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123BC8FE29CAEC6900080580 /* AlphaEventDemoTests.m */; };
 		123BC90929CAEC6900080580 /* AlphaEventDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123BC90829CAEC6900080580 /* AlphaEventDemoUITests.m */; };
 		123BC90B29CAEC6900080580 /* AlphaEventDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 123BC90A29CAEC6900080580 /* AlphaEventDemoUITestsLaunchTests.m */; };
+		123BC91929CAECA500080580 /* AlphaEventImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 123BC91829CAECA500080580 /* AlphaEventImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		123BC90429CAEC6900080580 /* AlphaEventDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaEventDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		123BC90829CAEC6900080580 /* AlphaEventDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaEventDemoUITests.m; sourceTree = "<group>"; };
 		123BC90A29CAEC6900080580 /* AlphaEventDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaEventDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		123BC91729CAECA500080580 /* AlphaEventImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlphaEventImageView.h; sourceTree = "<group>"; };
+		123BC91829CAECA500080580 /* AlphaEventImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaEventImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				123BC8E629CAEC6800080580 /* SceneDelegate.m */,
 				123BC8E829CAEC6800080580 /* ViewController.h */,
 				123BC8E929CAEC6800080580 /* ViewController.m */,
+				123BC91729CAECA500080580 /* AlphaEventImageView.h */,
+				123BC91829CAECA500080580 /* AlphaEventImageView.m */,
 				123BC8EB29CAEC6800080580 /* Main.storyboard */,
 				123BC8EE29CAEC6900080580 /* Assets.xcassets */,
 				123BC8F029CAEC6900080580 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 			files = (
 				123BC8EA29CAEC6800080580 /* ViewController.m in Sources */,
 				123BC8E429CAEC6800080580 /* AppDelegate.m in Sources */,
+				123BC91929CAECA500080580 /* AlphaEventImageView.m in Sources */,
 				123BC8F529CAEC6900080580 /* main.m in Sources */,
 				123BC8E729CAEC6800080580 /* SceneDelegate.m in Sources */,
 			);
